@@ -12,7 +12,6 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        //EmailService.SendEmail("mistertar@gmail.com", "Test", @"html\news.html");
     }
 
     private void SendButton_Click(object sender, RoutedEventArgs e)
